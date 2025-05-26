@@ -2,7 +2,7 @@ positivos = 0;
 zeros = 0;
 negativos = 0;
 
-for cont=1:5
+for cont=1:10
   A = input('Informe um valor: ');
   if A > 0
     positivos++;
