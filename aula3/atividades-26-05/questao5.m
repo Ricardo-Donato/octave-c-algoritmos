@@ -7,7 +7,7 @@ while contador < 5
 
     if numero > 0
         soma = soma + numero;
-        contador = contador + 1;
+        contador++;
     else
         disp("Número negativo informado. Por favor, digite um número POSITIVO.");
     end
