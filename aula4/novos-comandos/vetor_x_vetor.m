@@ -22,5 +22,5 @@ end
 
 %Imprima na tela vetor C
 for i = 1:5
-  fprintf('\nO vetor resultante entre as posições %d e %d é %d', vetA(i), vetB(i), vetC(i));
+  fprintf('O vetor resultante entre as posições %d e %d é %d\n', vetA(i), vetB(i), vetC(i));
 end

@@ -1,4 +1,4 @@
-%1)	Crie um algoritmo que leia um vetor com 15 posições.
+%1	Crie um algoritmo que leia um vetor com 15 posições.
 %Depois leia um numero qualquer.
 %Escreva na tela o vetor resultado da multiplicação
 %do vetor digitado com o numero informado.
