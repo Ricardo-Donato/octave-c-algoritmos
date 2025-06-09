@@ -25,6 +25,8 @@ end
 
 %Mostrar
 disp('Novo vetor que armazena os valores dos vetores informados:');
-for i = 1:20 
-    fprintf('\Posição %d do novo vetor: %d', i, vetC(i));
+for i = 1:20
+    fprintf('\n Posição %d do novo vetor: %d', i, vetC(i));
 end
+
+fprintf('\n');
