@@ -1,12 +1,12 @@
-disp('Preencha 5 posiÃ§Ãµes com valores aleatÃ³rios para o vetor A:');
+disp('Preencha 5 posições com valores aleatórios para o vetor A:');
 
 for i=1:5
-  fprintf('Digite o %dÂº valor para a posiÃ§Ã£o %d:', i, i);
+  fprintf('\nDigite o %dº valor para a posição %d:', i, i);
   vetA(i) = input(' ');
 end
 
 fprintf('\nVetor A digitado:\n');
 
 for i=1:5
-  fprintf('PosiÃ§Ã£o: %d - Valor: %d\n', i, vetA(i));
+  fprintf('Posição: %d - Valor: %d\n', i, vetA(i));
 end
