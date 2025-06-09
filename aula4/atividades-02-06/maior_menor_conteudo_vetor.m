@@ -1,15 +1,14 @@
-%Escreva um algoritmo que leia um vetor de 15 posiï¿½ï¿½es e mostre-o.
+%Escreva um algoritmo que leia um vetor de 15 posições e mostre-o.
 %Em seguida encontre e mostre o menor e o maior elemento;
 
-contador=0;
 menor=0;
 maior=0;
 
-disp('Digite os valores para preencher um vetor de 15 posiï¿½ï¿½es:');
+disp('Digite os valores para preencher um vetor de 15 posições:');
 for i = 1:15
-    fp  rintf('\n');
+    fprintf('\n');
     vetAny(i) = input(' ');
-    if contador == 0
+    if i == 1
         maior = vetAny(i);
         menor = vetAny(i);
     else
@@ -20,8 +19,7 @@ for i = 1:15
             menor = vetAny(i);
         end
     end
-    contador++;
 end
 
-fprintf('\n O maior nï¿½mero inserido foi %d', maior);
-fprintf('\n O menor nï¿½mero inserido foi %d', menor);
+fprintf('\n O maior número inserido foi %d', maior);
+fprintf('\n O menor número inserido foi %d', menor);
