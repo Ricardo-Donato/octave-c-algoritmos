@@ -1,13 +1,13 @@
-%Monte um algoritmo que, dado um número inteiro, armazene-o
-% e mostre sua tabuada dentro de um vetor de 10 posições;
+%Monte um algoritmo que, dado um nï¿½mero inteiro, armazene-o
+% e mostre sua tabuada dentro de um vetor de 10 posiï¿½ï¿½es;
 
-x = input('Informe um número inteiro:');
+x = input('Informe um nï¿½mero inteiro:');
 
 for i = 1:10
     vetA(i) = x*i;
 end
 
-fprintf('A tabuada do número %d é: ', x);
+fprintf('A tabuada do nï¿½mero %d ï¿½: ', x);
 for i = 1:10
     fprintf('%d x %d = %d\n', x, i, vetA(i));
 end

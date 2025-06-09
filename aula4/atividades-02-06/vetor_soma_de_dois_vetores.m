@@ -1,7 +1,7 @@
-%Crie um algoritmo que leia 2 vetores, com dez números inteiros cada
-%e armazene, em um terceiro vetor, a soma do conteúdo de cada índice dos dois primeiros.
+%Crie um algoritmo que leia 2 vetores, com dez nï¿½meros inteiros cada
+%e armazene, em um terceiro vetor, a soma do conteï¿½do de cada ï¿½ndice dos dois primeiros.
 
-disp('Preencha dois vetores de 10 números inteiros cada.');
+disp('Preencha dois vetores de 10 nï¿½meros inteiros cada.');
 fprintf('\nDigite os valores do primeiro vetor: \n');
 
 for i = 1:10
@@ -18,7 +18,7 @@ for i = 1:10
     vetC(i) = vetA(i) + vetB(i);
 end
 
-fprintf('\nA soma entre cada posição deles é: \n');
+fprintf('\nA soma entre cada posiï¿½ï¿½o deles ï¿½: \n');
 for i = 1:10
-    fprintf('Soma da posição %d: %d', i, vetC(i));
+    fprintf('Soma da posiï¿½ï¿½o %d: %d', i, vetC(i));
 end

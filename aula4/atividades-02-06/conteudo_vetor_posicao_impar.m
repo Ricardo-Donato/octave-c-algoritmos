@@ -10,6 +10,6 @@ end
 %Exibir apenas posiÃ§Ãµes Ã­mpares usando mod
 for i = 1:10
   if mod(i, 2) ~= 0
-    fprintf('Valor da posição %d do vetor A: %d\n', i, vetA(i));
+    fprintf('Valor da posiï¿½ï¿½o %d do vetor A: %d\n', i, vetA(i));
   end
 end
