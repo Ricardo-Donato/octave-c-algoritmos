@@ -1,8 +1,8 @@
-%Faï¿½a um algoritmo que leia 2 vetores, tipo inteiro, de 10 posiï¿½ï¿½es cada.
-%Depois crie um terceirov vetor, de mesmo tipo, com 20 posiï¿½ï¿½es
-%Nele, deverï¿½ ser armazenado o conteï¿½do dos 2 vetores iniciais.
+%Faça um algoritmo que leia 2 vetores, tipo inteiro, de 10 posições cada.
+%Depois crie um terceiro vetor, de mesmo tipo, com 20 posições
+%Nele, deverá ser armazenado o conteúdo dos 2 vetores iniciais.
 
-disp('Preencha dois vetores de 10 nï¿½meros inteiros cada.');
+disp('Preencha dois vetores de 10 números inteiros cada.');
 fprintf('\nDigite os valores do primeiro vetor: \n');
 
 for i = 1:10
@@ -16,15 +16,15 @@ end
 
 %Armazenar
 for i = 1:20
-    if i < 11
+    if i <= 10
         vetC(i) = vetA(i);
     else
-        vetC(i) = vetB(i);
+        vetC(i) = vetB(i - 10);
     end
 end
 
 %Mostrar
 disp('Novo vetor que armazena os valores dos vetores informados:');
 for i = 1:20 
-    fprintf('\nPosiï¿½ï¿½o %d do novo vetor: %d', i, vetC(i));
+    fprintf('\Posição %d do novo vetor: %d', i, vetC(i));
 end
