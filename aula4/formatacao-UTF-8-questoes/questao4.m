@@ -4,7 +4,7 @@
 
 fprintf('Preencha as 20 posições do vetor: \n');
 for i = 1:20
-    fprintf('Digite um valor para a posição %d do vetor A:\n', i);
+    fprintf('Digite um valor para a posição %d do vetor A:', i);
     vetA(i) = input(' ');
 end
 
