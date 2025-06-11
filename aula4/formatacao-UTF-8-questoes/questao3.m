@@ -7,7 +7,9 @@ for i = 1:10
     vetA(i) = x*i;
 end
 
+fprintf('\n');
 fprintf('A tabuada do número %d é: ', x);
+fprintf('\n');
 for i = 1:10
     fprintf('%d x %d = %d\n', x, i, vetA(i));
 end
