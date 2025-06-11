@@ -24,6 +24,7 @@ for i = 1:20
 end
 
 %Mostrar
+fprintf('\n');
 disp('Novo vetor que armazena os valores dos vetores informados:');
 for i = 1:20
     fprintf('\n Posição %d do novo vetor: %d', i, vetC(i));
