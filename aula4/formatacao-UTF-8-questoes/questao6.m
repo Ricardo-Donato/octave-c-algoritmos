@@ -15,12 +15,12 @@ for i = 1:10
 end
 
 %Armazenar
-for i = 1:20
-    if i <= 10
-        vetC(i) = vetA(i);
-    else
-        vetC(i) = vetB(i - 10);
-    end
+for i = 1:10
+  vetC(i) = vetA(i);
+end
+
+for i = 1:10
+  vetC(i + 10) = vetB(i);
 end
 
 %Mostrar
