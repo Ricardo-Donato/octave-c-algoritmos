@@ -10,4 +10,4 @@ v = [3 2];
 nova_velocidade = v * 3;
 
 fprintf('A velocidade original era (%d, %d)\n', v(1), v(2));
-fprintf('Com o pequeno impulso, a velocidade final do carrinho (v * 3) é: (%d, %d)\n', nova_velocidade(1), nova_velocidade(2));
+fprintf('Com o pequeno impulso, a velocidade final do carrinho (v * 3) é: (%d, %d) nas direções x e y em metros por segundo\n', nova_velocidade(1), nova_velocidade(2));
