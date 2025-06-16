@@ -10,4 +10,4 @@ torque_gerado = cross(r, F);
 
 fprintf('O vetor de posição do ponto de aplicação da força é r = (%d, %d, %d)\n', r(1), r(2), r(3));
 fprintf('O vetor da força aplicada é F = (%d, %d, %d)\n', F(1), F(2), F(3));
-fprintf('Logo, o trabalho realizado pela força é %d \n', torque_gerado);
+fprintf('Logo, o vetor de torque resultante é t = (%d, %d, %d)\n', torque_gerado(1), torque_gerado(2), torque_gerado(3));
