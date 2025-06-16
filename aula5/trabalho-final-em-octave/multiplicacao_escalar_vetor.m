@@ -3,7 +3,7 @@ disp('Você está organizando uma corrida de carrinhos de brinquedo.');
 disp('O vetor v = (3,2) representa a velocidade do carrinho nas direções x e y (em metros por segundo).');
 disp('Porém, depois de um pequeno impulso, a velocidade do carrinho aumenta 3 vezes.');
 disp('Vamos calcular a nova velocidade do carrinho após o aumento.');
-disp('------------------------------------------------------');
+disp('-----------------------------------------------------');
 
 v = [3 2];
 nova_velocidade = v * 3;

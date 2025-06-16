@@ -1,7 +1,7 @@
 disp('Exercício 1: Soma de Vetores');
 disp('Em um jogo de nave espacial, sua nave se move para v1=(5,2) e depois v2=(-3,4).');
 disp('Vamos calcular a posição final somando os vetores.');
-disp('------------------------------------------------------');
+disp('-----------------------------------------------------');
 
 v1 = [5 2];
 v2 = [-3 4];

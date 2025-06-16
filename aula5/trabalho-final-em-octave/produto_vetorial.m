@@ -2,7 +2,7 @@ disp('Exercício 4: Produto Vetorial');
 disp('Em um estudo sobre o movimento de um robô, você precisa calcular o torque gerado por uma força aplicada em uma posição fora do centro de rotação.');
 disp('O vetor de posição do ponto de aplicação da força é r = (1, 2, 0), e a força aplicada no ponto é F = (3, -1, 2).');
 disp('Vamos calcular o torque gerado pela força utilizando o produto vetorial entre r e F.');
-disp('------------------------------------------------------');
+disp('-----------------------------------------------------');
 
 r = [1 2 0];
 F = [3 -1 2];
