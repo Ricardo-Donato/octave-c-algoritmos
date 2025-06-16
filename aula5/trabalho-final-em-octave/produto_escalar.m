@@ -9,8 +9,8 @@ disp('------------------------------------------------------');
 F = [10 15];
 d = [5 4];
 
-trabalho_realizado = F * d;
+trabalho_realizado = dot(F, d);
 
 fprintf('O vetor de força é F = (%d, %d)\n', F(1), F(2));
 fprintf('O vetor de deslocamento é d = (%d, %d)\n', d(1), d(2));
-fprintf('Logo, o trabalho realizado pela força é: (%d, %d)\n', trabalho_realizado(1), trabalho_realizado(2));
+fprintf('Logo, o trabalho realizado pela força é %d \n', trabalho_realizado);
