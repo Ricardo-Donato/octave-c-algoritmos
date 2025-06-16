@@ -5,7 +5,6 @@ disp('------------------------------------------------------');
 
 v1 = [5 2];
 v2 = [-3 4];
-
 posicao_final = v1 + v2;
 
 fprintf('O vetor do primeiro movimento é v1 = (%d, %d)\n', v1(1), v1(2));

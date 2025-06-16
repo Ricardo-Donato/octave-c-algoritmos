@@ -4,7 +4,6 @@ disp('O vetor de posição do ponto de aplicação da força é r = (1, 2, 0), e
 disp('Vamos calcular o torque gerado pela força utilizando o produto vetorial entre r e F.');
 disp('------------------------------------------------------');
 
-
 r = [1 2 0];
 F = [3 -1 2];
 torque_gerado = cross(r, F);

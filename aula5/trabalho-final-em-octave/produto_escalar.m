@@ -5,10 +5,8 @@ disp('O vetor de força é F = (10, 15) e o vetor de deslocamento é d = (5, 4).
 disp('Vamos calcular o trabalho realizado pela força, que é dado pelo produto escalar entre F e d.');
 disp('------------------------------------------------------');
 
-
 F = [10 15];
 d = [5 4];
-
 trabalho_realizado = dot(F, d);
 
 fprintf('O vetor de força é F = (%d, %d)\n', F(1), F(2));

@@ -6,7 +6,6 @@ disp('Vamos calcular a nova velocidade do carrinho após o aumento.');
 disp('------------------------------------------------------');
 
 v = [3 2];
-
 nova_velocidade = v * 3;
 
 fprintf('A velocidade original era (%d, %d)\n', v(1), v(2));
