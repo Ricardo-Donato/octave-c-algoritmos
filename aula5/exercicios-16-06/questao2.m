@@ -15,13 +15,20 @@ fprintf('\n');
 A = input('Digite um valor para A: ');
 MatResultado = MatM * A;
 
+k = 1;
 for i = 1:4
   for j = 1:4
-     vetorResult(i) = MatResultado(i, j);
+     vetorResult(k) = MatResultado(i, j);
+     k = k + 1;
   end
 end
 
 fprintf('\n----------------------------------------\n');
 
-disp('Vetor Resultante (M * A):');
+disp('Vetor Resultante (M * A) - forma de lógica inicial:');
 disp(vetorResult);
+
+vetorResultMATLAB = MatResultado(:);
+
+disp('Vetor Resultante (M * A) - forma MATLAB:');
+disp(vetorResultMATLAB);
