@@ -11,3 +11,9 @@ while (qtdCaracteres < 5 || qtdCaracteres > 9)
 end
 
 fprintf('\nPalavra original digitada: %s\n', palavraOriginal);
+fprintf('\nCaracteres percorridos + valores em ASCII:\n');
+
+for i = 1:qtdCaracteres
+    caractere = palavraOriginal(i);
+    fprintf('Letra: %s - ASCII correspondente: %d\n', caractere, double(caractere));
+end
