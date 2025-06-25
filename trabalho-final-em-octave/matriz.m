@@ -8,6 +8,7 @@ qtdCaracteres = length(palavraOriginal);
 while (qtdCaracteres < 5 || qtdCaracteres > 9)
     fprintf('\n');
     palavraOriginal = input('Por favor, digite novamente (min. 5, max. 9 caracteres): ', 's');
+    qtdCaracteres = length(palavraOriginal);
 end
 
 fprintf('\nPalavra original digitada: %s\n', palavraOriginal);
@@ -18,13 +19,6 @@ for i = 1:qtdCaracteres
     fprintf('Letra: %s - ASCII correspondente: %d\n', caractere, double(caractere));
 end
 
-%Entradas:
-%DASDASJdas
-%213d32fd4rewt
-%ter
-%Pedro
-
-%Saída:
 %matrizCifradora =
 %
 %   12    4    1
@@ -42,9 +36,13 @@ end
 %Por favor, digite novamente (min. 5, max. 9 caracteres): 
 %Por favor, digite novamente (min. 5, max. 9 caracteres): 
 %Por favor, digite novamente (min. 5, max. 9 caracteres): 
-%Por favor, digite novamente (min. 5, max. 9 caracteres): error: input: reading user-input failed!
-%error: called from
-%    main at line 10 column 21
-%    /opt/run_user_code.m at line 1 column 1
+%Palavra original digitada: Pedro
 %
-%[Execution complete with exit code 1]
+%Caracteres percorridos + valores em ASCII:
+%Letra: P - ASCII correspondente: 80
+%Letra: e - ASCII correspondente: 101
+%Letra: d - ASCII correspondente: 100
+%Letra: r - ASCII correspondente: 114
+%Letra: o - ASCII correspondente: 111
+%
+%[Execution complete with exit code 0]
