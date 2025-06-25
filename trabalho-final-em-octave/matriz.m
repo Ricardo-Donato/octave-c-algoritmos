@@ -9,10 +9,21 @@ while (length(palavraOriginal) < 5 || length(palavraOriginal) > 9)
     palavraOriginal = input('Por favor, digite novamente (min. 5, max. 9 caracteres): ', 's');
 end
 
-fprintf('\nPalavra original digitada: %s\n', palavraOriginal);
-fprintf('\nCaracteres percorridos + valores em ASCII:\n');
+fprintf('\nPalavra original digitada: %s\n\n', palavraOriginal);
 
-for i = 1:length(palavraOriginal)
-    caractere = palavraOriginal(i);
-    fprintf('Letra: %s - ASCII correspondente: %d\n', caractere, double(caractere));
+disp('Matriz de caracteres convertidos para ASCII da palavra original');
+
+k = 1;
+if length(palavraOriginal) == 9
+    for i = 1:3
+      for j = 1:3
+         caractere = palavraOriginal(k);
+         matrizCaracteres(i, j) = double(caractere);
+         k = k + 1;
+      end
+    end
+    disp(matrizCaracteres);
+else
+    qtdCasasMatRest = 9 - length(palavraOriginal);
+    disp(qtdCasasMatRest);
 end
