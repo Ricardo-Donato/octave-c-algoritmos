@@ -28,6 +28,7 @@ disp('Matriz de caracteres convertidos para ASCII da palavra original:');
 matrizCaracteres = reshape(vetorASCII, 3, 3)';
 disp(matrizCaracteres);
 
+%Cifragem da Mensagem
 fprintf('\n\n');
 disp('Matriz de caracteres cifrada:');
 matrizCifrada = matrizCaracteres * matrizCifradora;
