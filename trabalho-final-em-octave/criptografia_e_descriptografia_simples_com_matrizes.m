@@ -40,3 +40,12 @@ disp('Matriz de caracteres decifrada:');
 matrizMensagem = matrizCifrada * matrizDecifradora;
 matrizMensagem = round(matrizMensagem);
 disp(matrizMensagem);
+
+%Reconstrução da Palavra Descriptografada (palavraDescifrada)
+vetorDecifrado = reshape(matrizMensagem', 1, []);
+vetorLimpo = vetorDecifrado(vetorDecifrado ~= 32);
+palavraDecifrada = char(vetorLimpo);
+
+fprintf('\n');
+disp('Palavra decifrada:');
+disp(palavraDecifrada);
