@@ -53,8 +53,8 @@ disp(palavraDecifrada);
 %Comparação Final
 if strcmp(palavraOriginal, palavraDecifrada)
     fprintf('\nSucesso ao realizar a criptografia e descriptografia da palavra %s!\n', palavraOriginal);
-    disp('As duas palavras s�o iguais!');
+    disp('As duas palavras são iguais!');
 else
     fprintf('\nFalha ao realizar a criptografia e descriptografia da palavra %s.\n', palavraOriginal);
-    disp('As duas palavras s�o diferentes.');
+    disp('As duas palavras são diferentes.');
 end
