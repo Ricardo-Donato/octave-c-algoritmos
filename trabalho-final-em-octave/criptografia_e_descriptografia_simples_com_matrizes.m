@@ -24,6 +24,11 @@ if qtdCasasRestantes > 0
     vetorASCII = [vetorASCII, 32 * ones(1, qtdCasasRestantes)];
 end
 
-disp('Matriz de caracteres convertidos para ASCII da palavra original');
+disp('Matriz de caracteres convertidos para ASCII da palavra original:');
 matrizCaracteres = reshape(vetorASCII, 3, 3)';
 disp(matrizCaracteres);
+
+fprintf('\n\n');
+disp('Matriz de caracteres cifrada:');
+matrizCifrada = matrizCaracteres * matrizCifradora;
+disp(matrizCifrada);
