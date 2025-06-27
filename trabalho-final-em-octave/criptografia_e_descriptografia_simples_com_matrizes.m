@@ -33,3 +33,10 @@ fprintf('\n\n');
 disp('Matriz de caracteres cifrada:');
 matrizCifrada = matrizCaracteres * matrizCifradora;
 disp(matrizCifrada);
+
+%Decifragem da Mensagem
+fprintf('\n');
+disp('Matriz de caracteres decifrada:');
+matrizMensagem = matrizCifrada * matrizDecifradora;
+matrizMensagem = round(matrizMensagem);
+disp(matrizMensagem);
