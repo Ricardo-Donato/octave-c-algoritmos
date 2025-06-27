@@ -21,4 +21,5 @@ if qtdCasasRestantes > 0
 end
 
 disp('Matriz de caracteres convertidos para ASCII da palavra original');
-matrizCaracteres = reshape(vetorASCII, 3, 3)'
+matrizCaracteres = reshape(vetorASCII, 3, 3)';
+disp(matrizCaracteres);
