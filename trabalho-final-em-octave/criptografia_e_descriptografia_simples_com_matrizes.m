@@ -49,3 +49,12 @@ palavraDecifrada = char(vetorLimpo);
 fprintf('\n');
 disp('Palavra decifrada:');
 disp(palavraDecifrada);
+
+%Comparação Final
+if strcmp(palavraOriginal, palavraDecifrada)
+    fprintf('\nSucesso ao realizar a criptografia e descriptografia da palavra %s!\n', palavraOriginal);
+    disp('As duas palavras sao iguais!');
+else
+    fprintf('\nFalha ao realizar a criptografia e descriptografia da palavra %s.\n', palavraOriginal);
+    disp('As duas palavras sao diferentes.');
+end
