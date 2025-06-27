@@ -1,7 +1,9 @@
-matrizCifradora = [12 4 1; 3 1 -2; 1 0 2]
+matrizCifradora = [12 4 1; 3 1 -2; 1 0 2];
+disp('Determinante da matriz cifradora diferente de zero:');
 det(matrizCifradora)
-matrizDecifradora = inv(matrizCifradora)
+matrizDecifradora = inv(matrizCifradora);
 
+fprintf('\n');
 palavraOriginal = input('Digite uma palavra (min. 5, max. 9 caracteres): ', 's');
 
 while (length(palavraOriginal) < 5 || length(palavraOriginal) > 9)
@@ -9,16 +11,7 @@ while (length(palavraOriginal) < 5 || length(palavraOriginal) > 9)
     palavraOriginal = input('Por favor, digite novamente (min. 5, max. 9 caracteres): ', 's');
 end
 
-fprintf('\nPalavra original digitada: %s\n', palavraOriginal);
-fprintf('\nCaracteres percorridos + valores em ASCII:\n');
-
-for i = 1:length(palavraOriginal)
-    caractere = palavraOriginal(i);
-    fprintf('Letra: %s - ASCII correspondente: %d\n', caractere, double(caractere));
-end
-
-fprintf('\n');
-disp('Matriz de caracteres convertidos para ASCII da palavra original');
+fprintf('\n\n');
 
 vetorASCII = double(palavraOriginal);
 
@@ -27,4 +20,5 @@ if qtdCasasRestantes > 0
     vetorASCII = [vetorASCII, 32 * ones(1, qtdCasasRestantes)];
 end
 
+disp('Matriz de caracteres convertidos para ASCII da palavra original');
 matrizCaracteres = reshape(vetorASCII, 3, 3)'
