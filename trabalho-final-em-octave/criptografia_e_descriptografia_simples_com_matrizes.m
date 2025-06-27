@@ -1,3 +1,8 @@
+disp('Exercício 6: Criptografia e Descriptografia Simples com Matrizes em Octave')
+disp('Objetivo: Aplicar os conceitos de Álgebra Linear (operações com matrizes, matriz inversa) e');
+disp('manipulação de strings no Octave, simulando um sistema simples e prático de criptografia e descriptografia.')
+disp('Desenvolvimento de um script em Octave (.m file) que execute as seguintes etapas:')
+
 %Escolha e Definição da Matriz Cifradora
 matrizCifradora = [12 4 1; 3 1 -2; 1 0 2];
 disp('Determinante da matriz cifradora diferente de zero:');
